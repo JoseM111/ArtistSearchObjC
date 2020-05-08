@@ -1,12 +1,5 @@
-//
-//  AppDelegate.m
-//  ArtistSearchObjC
-//
-//  Created by Jose Martinez on 5/7/20.
-//  Copyright © 2020 Jose Martinez. All rights reserved.
-//
-
 #import "AppDelegate.h"
+#import "JMArtistModelController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +9,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    [JMArtistModelController fetchArtistForSearchTerm:@"Metallica" completion:^(NSArray<JMArtist *> *artist) {
+
+    }];
     // Override point for customization after application launch.
     return YES;
 }

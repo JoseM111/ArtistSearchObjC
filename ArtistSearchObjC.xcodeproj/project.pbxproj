@@ -7,28 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB4CE6C22464E182000785C9 /* JMArtistModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CE6C12464E182000785C9 /* JMArtistModelController.m */; };
+		AB4CE6C52464F874000785C9 /* ArtistListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4CE6C42464F874000785C9 /* ArtistListTableViewController.swift */; };
+		AB4CE6C82464FA5D000785C9 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4CE6C72464FA5D000785C9 /* ArtistTableViewCell.swift */; };
 		ABF6F8852464DA9E00BCEEA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6F8842464DA9E00BCEEA5 /* AppDelegate.m */; };
 		ABF6F8882464DA9E00BCEEA5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6F8872464DA9E00BCEEA5 /* SceneDelegate.m */; };
-		ABF6F88B2464DA9E00BCEEA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6F88A2464DA9E00BCEEA5 /* ViewController.m */; };
 		ABF6F88E2464DA9E00BCEEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF6F88C2464DA9E00BCEEA5 /* Main.storyboard */; };
 		ABF6F8902464DAA000BCEEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF6F88F2464DAA000BCEEA5 /* Assets.xcassets */; };
 		ABF6F8932464DAA000BCEEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF6F8912464DAA000BCEEA5 /* LaunchScreen.storyboard */; };
 		ABF6F8962464DAA000BCEEA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6F8952464DAA000BCEEA5 /* main.m */; };
+		ABF6F8A42464DB8200BCEEA5 /* JMArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6F8A32464DB8200BCEEA5 /* JMArtist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB4CE6C02464E182000785C9 /* JMArtistModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMArtistModelController.h; sourceTree = "<group>"; };
+		AB4CE6C12464E182000785C9 /* JMArtistModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMArtistModelController.m; sourceTree = "<group>"; };
+		AB4CE6C32464F873000785C9 /* ArtistSearchObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtistSearchObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB4CE6C42464F874000785C9 /* ArtistListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListTableViewController.swift; sourceTree = "<group>"; };
+		AB4CE6C72464FA5D000785C9 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
 		ABF6F8802464DA9E00BCEEA5 /* ArtistSearchObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtistSearchObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF6F8832464DA9E00BCEEA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABF6F8842464DA9E00BCEEA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ABF6F8862464DA9E00BCEEA5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		ABF6F8872464DA9E00BCEEA5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		ABF6F8892464DA9E00BCEEA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABF6F88A2464DA9E00BCEEA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABF6F88D2464DA9E00BCEEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABF6F88F2464DAA000BCEEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABF6F8922464DAA000BCEEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABF6F8942464DAA000BCEEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF6F8952464DAA000BCEEA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF6F8A22464DB8200BCEEA5 /* JMArtist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMArtist.h; sourceTree = "<group>"; };
+		ABF6F8A32464DB8200BCEEA5 /* JMArtist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMArtist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4CE6C62464FA39000785C9 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				AB4CE6C72464FA5D000785C9 /* ArtistTableViewCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		ABF6F8772464DA9E00BCEEA5 = {
 			isa = PBXGroup;
 			children = (
@@ -61,19 +77,72 @@
 		ABF6F8822464DA9E00BCEEA5 /* ArtistSearchObjC */ = {
 			isa = PBXGroup;
 			children = (
+				ABF6F8A02464DAD900BCEEA5 /* Models */,
+				ABF6F89F2464DAD200BCEEA5 /* View */,
+				ABF6F89C2464DAAC00BCEEA5 /* Controllers */,
+				ABF6F8A12464DB0200BCEEA5 /* Res */,
+			);
+			path = ArtistSearchObjC;
+			sourceTree = "<group>";
+		};
+		ABF6F89C2464DAAC00BCEEA5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABF6F89E2464DAC400BCEEA5 /* ViewControllers */,
+				ABF6F89D2464DABA00BCEEA5 /* ModelController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABF6F89D2464DABA00BCEEA5 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4CE6C02464E182000785C9 /* JMArtistModelController.h */,
+				AB4CE6C12464E182000785C9 /* JMArtistModelController.m */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		ABF6F89E2464DAC400BCEEA5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB4CE6C42464F874000785C9 /* ArtistListTableViewController.swift */,
+				AB4CE6C32464F873000785C9 /* ArtistSearchObjC-Bridging-Header.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ABF6F89F2464DAD200BCEEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB4CE6C62464FA39000785C9 /* CustomView */,
+				ABF6F88C2464DA9E00BCEEA5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABF6F8A02464DAD900BCEEA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABF6F8A22464DB8200BCEEA5 /* JMArtist.h */,
+				ABF6F8A32464DB8200BCEEA5 /* JMArtist.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABF6F8A12464DB0200BCEEA5 /* Res */ = {
+			isa = PBXGroup;
+			children = (
 				ABF6F8832464DA9E00BCEEA5 /* AppDelegate.h */,
 				ABF6F8842464DA9E00BCEEA5 /* AppDelegate.m */,
 				ABF6F8862464DA9E00BCEEA5 /* SceneDelegate.h */,
 				ABF6F8872464DA9E00BCEEA5 /* SceneDelegate.m */,
-				ABF6F8892464DA9E00BCEEA5 /* ViewController.h */,
-				ABF6F88A2464DA9E00BCEEA5 /* ViewController.m */,
-				ABF6F88C2464DA9E00BCEEA5 /* Main.storyboard */,
 				ABF6F88F2464DAA000BCEEA5 /* Assets.xcassets */,
 				ABF6F8912464DAA000BCEEA5 /* LaunchScreen.storyboard */,
 				ABF6F8942464DAA000BCEEA5 /* Info.plist */,
 				ABF6F8952464DAA000BCEEA5 /* main.m */,
 			);
-			path = ArtistSearchObjC;
+			path = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +171,13 @@
 		ABF6F8782464DA9E00BCEEA5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JM;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Jose Martinez";
 				TargetAttributes = {
 					ABF6F87F2464DA9E00BCEEA5 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -146,10 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF6F88B2464DA9E00BCEEA5 /* ViewController.m in Sources */,
 				ABF6F8852464DA9E00BCEEA5 /* AppDelegate.m in Sources */,
 				ABF6F8962464DAA000BCEEA5 /* main.m in Sources */,
+				AB4CE6C52464F874000785C9 /* ArtistListTableViewController.swift in Sources */,
+				AB4CE6C22464E182000785C9 /* JMArtistModelController.m in Sources */,
 				ABF6F8882464DA9E00BCEEA5 /* SceneDelegate.m in Sources */,
+				ABF6F8A42464DB8200BCEEA5 /* JMArtist.m in Sources */,
+				AB4CE6C82464FA5D000785C9 /* ArtistTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +363,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ArtistSearchObjC/Info.plist;
+				INFOPLIST_FILE = ArtistSearchObjC/Res/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-Plaza-DePapel.ArtistSearchObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArtistSearchObjC/Controllers/ViewControllers/ArtistSearchObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,14 +383,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ArtistSearchObjC/Info.plist;
+				INFOPLIST_FILE = ArtistSearchObjC/Res/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-Plaza-DePapel.ArtistSearchObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArtistSearchObjC/Controllers/ViewControllers/ArtistSearchObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
